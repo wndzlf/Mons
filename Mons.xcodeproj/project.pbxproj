@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0DA2FA20B168AD006569D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0DA2F920B168AD006569D7 /* MainViewController.swift */; };
+		4E28A2A920B57E190074B525 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28A2A820B57E190074B525 /* BannerViewController.swift */; };
+		4E38B6AB20BE594B0079B11C /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38B6AA20BE594B0079B11C /* YoutubeViewController.swift */; };
+		4E38B6AD20BE5E8A0079B11C /* VideoTabScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38B6AC20BE5E8A0079B11C /* VideoTabScrollViewController.swift */; };
+		4E38B6B120BE69C20079B11C /* BoardTabScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38B6B020BE69C20079B11C /* BoardTabScrollViewController.swift */; };
+		4E38B6B320BE753D0079B11C /* BoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38B6B220BE753D0079B11C /* BoardTableViewController.swift */; };
+		4E4E44A220BD84DB0091E4D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E44A120BD84DB0091E4D8 /* Info.plist */; };
 		4EDDA60820B068DE00072989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA60720B068DE00072989 /* AppDelegate.swift */; };
 		4EDDA60A20B068DE00072989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA60920B068DE00072989 /* ViewController.swift */; };
 		4EDDA60D20B068DE00072989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDA60B20B068DE00072989 /* Main.storyboard */; };
-		4EDDA60F20B068DE00072989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDA60E20B068DE00072989 /* Assets.xcassets */; };
 		4EDDA61220B068DE00072989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDA61020B068DE00072989 /* LaunchScreen.storyboard */; };
-		4EDDA61D20B068DE00072989 /* MonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA61C20B068DE00072989 /* MonsTests.swift */; };
-		4EDDA62820B068DE00072989 /* MonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA62720B068DE00072989 /* MonsUITests.swift */; };
+		8447D6BA20B976B3006D59A8 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447D6B420B976B3006D59A8 /* YouTubePlayer.swift */; };
+		8447D6BB20B976B3006D59A8 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8447D6B520B976B3006D59A8 /* YTPlayer.html */; };
+		8447D6BC20B976B3006D59A8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8447D6B620B976B3006D59A8 /* Info.plist */; };
+		8447D6E920BC38C0006D59A8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447D6E820BC38C0006D59A8 /* DataSource.swift */; };
+		8447D6EB20BD3DF8006D59A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8447D6EA20BD3DF8006D59A8 /* Assets.xcassets */; };
+		8495318F20C7CEEA00FF2ECD /* tableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495318E20C7CEEA00FF2ECD /* tableViewDataSource.swift */; };
+		84BD42D020BD804700677367 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD42CE20BD804700677367 /* ImagePreviewViewController.swift */; };
+		84BD42D120BD804700677367 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD42CF20BD804700677367 /* GalleryViewController.swift */; };
+		91FFE6235949CB2BBDE50E51 /* Pods_Mons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C48C1F7F43CD3632690489 /* Pods_Mons.framework */; };
+		9FDB2758100D1B60EA581034 /* Pods_MonsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D291E65B1D658AFD2F8E5E9A /* Pods_MonsUITests.framework */; };
+		B507EB668BB77DB583E65BD0 /* Pods_MonsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27EC65D8C88F9DD455502B2 /* Pods_MonsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +46,48 @@
 			remoteGlobalIDString = 4EDDA60320B068DE00072989;
 			remoteInfo = Mons;
 		};
+		8447D6B820B976B3006D59A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8447D6B020B976B3006D59A8 /* YouTubePlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 502AE85F1A475FD500306AD1;
+			remoteInfo = YouTubePlayer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11EA2AFBEA910DAF45D49F46 /* Pods-Mons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mons/Pods-Mons.debug.xcconfig"; sourceTree = "<group>"; };
+		40C48C1F7F43CD3632690489 /* Pods_Mons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0DA2F920B168AD006569D7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4E28A2A820B57E190074B525 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		4E38B6AA20BE594B0079B11C /* YoutubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		4E38B6AC20BE5E8A0079B11C /* VideoTabScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTabScrollViewController.swift; sourceTree = "<group>"; };
+		4E38B6B020BE69C20079B11C /* BoardTabScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTabScrollViewController.swift; sourceTree = "<group>"; };
+		4E38B6B220BE753D0079B11C /* BoardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTableViewController.swift; sourceTree = "<group>"; };
+		4E4E44A120BD84DB0091E4D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EDDA60420B068DE00072989 /* Mons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDDA60720B068DE00072989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDDA60920B068DE00072989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EDDA60C20B068DE00072989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EDDA60E20B068DE00072989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EDDA61120B068DE00072989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4EDDA61320B068DE00072989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EDDA61820B068DE00072989 /* MonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EDDA61C20B068DE00072989 /* MonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsTests.swift; sourceTree = "<group>"; };
-		4EDDA61E20B068DE00072989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EDDA62320B068DE00072989 /* MonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EDDA62720B068DE00072989 /* MonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsUITests.swift; sourceTree = "<group>"; };
-		4EDDA62920B068DE00072989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B818DB37761EC3DD8580889 /* Pods-MonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsTests/Pods-MonsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8447D6B020B976B3006D59A8 /* YouTubePlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = YouTubePlayer.xcodeproj; sourceTree = "<group>"; };
+		8447D6B420B976B3006D59A8 /* YouTubePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubePlayer.swift; sourceTree = "<group>"; };
+		8447D6B520B976B3006D59A8 /* YTPlayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YTPlayer.html; sourceTree = "<group>"; };
+		8447D6B620B976B3006D59A8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8447D6E820BC38C0006D59A8 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		8447D6EA20BD3DF8006D59A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8495318E20C7CEEA00FF2ECD /* tableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDataSource.swift; sourceTree = "<group>"; };
+		84BD42CE20BD804700677367 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		84BD42CF20BD804700677367 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		A7049C4975DD47E97605EF91 /* Pods-MonsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsUITests/Pods-MonsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA79B1356C9FBBE99A726C72 /* Pods-MonsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsTests/Pods-MonsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D590D7864937BDBC08C15B /* Pods-MonsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsUITests/Pods-MonsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC16A4D81D9E1589C4EB88A6 /* Pods-Mons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mons.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mons/Pods-Mons.release.xcconfig"; sourceTree = "<group>"; };
+		D291E65B1D658AFD2F8E5E9A /* Pods_MonsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27EC65D8C88F9DD455502B2 /* Pods_MonsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FFE6235949CB2BBDE50E51 /* Pods_Mons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B507EB668BB77DB583E65BD0 /* Pods_MonsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDB2758100D1B60EA581034 /* Pods_MonsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				4EDDA60620B068DE00072989 /* Mons */,
-				4EDDA61B20B068DE00072989 /* MonsTests */,
-				4EDDA62620B068DE00072989 /* MonsUITests */,
 				4EDDA60520B068DE00072989 /* Products */,
+				ABC73908B7483C73F5793612 /* Pods */,
+				B9A51899F0951FDB20690DF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,30 +143,73 @@
 			children = (
 				4EDDA60720B068DE00072989 /* AppDelegate.swift */,
 				4EDDA60920B068DE00072989 /* ViewController.swift */,
+				84BD42CF20BD804700677367 /* GalleryViewController.swift */,
+				84BD42CE20BD804700677367 /* ImagePreviewViewController.swift */,
+				4E4E44A120BD84DB0091E4D8 /* Info.plist */,
 				4EDDA60B20B068DE00072989 /* Main.storyboard */,
-				4EDDA60E20B068DE00072989 /* Assets.xcassets */,
+				8447D6EA20BD3DF8006D59A8 /* Assets.xcassets */,
 				4EDDA61020B068DE00072989 /* LaunchScreen.storyboard */,
-				4EDDA61320B068DE00072989 /* Info.plist */,
+				4E0DA2F920B168AD006569D7 /* MainViewController.swift */,
+				4E38B6AA20BE594B0079B11C /* YoutubeViewController.swift */,
+				4E28A2A820B57E190074B525 /* BannerViewController.swift */,
+				8447D6E820BC38C0006D59A8 /* DataSource.swift */,
+				4E38B6AC20BE5E8A0079B11C /* VideoTabScrollViewController.swift */,
+				4E38B6B020BE69C20079B11C /* BoardTabScrollViewController.swift */,
+				4E38B6B220BE753D0079B11C /* BoardTableViewController.swift */,
+				8495318E20C7CEEA00FF2ECD /* tableViewDataSource.swift */,
 			);
 			path = Mons;
 			sourceTree = "<group>";
 		};
-		4EDDA61B20B068DE00072989 /* MonsTests */ = {
+		8447D6AF20B976B3006D59A8 /* YouTubePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				4EDDA61C20B068DE00072989 /* MonsTests.swift */,
-				4EDDA61E20B068DE00072989 /* Info.plist */,
+				8447D6B020B976B3006D59A8 /* YouTubePlayer.xcodeproj */,
+				8447D6B320B976B3006D59A8 /* YouTubePlayer */,
 			);
-			path = MonsTests;
+			path = YouTubePlayer;
 			sourceTree = "<group>";
 		};
-		4EDDA62620B068DE00072989 /* MonsUITests */ = {
+		8447D6B120B976B3006D59A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EDDA62720B068DE00072989 /* MonsUITests.swift */,
-				4EDDA62920B068DE00072989 /* Info.plist */,
+				8447D6B920B976B3006D59A8 /* YouTubePlayer.framework */,
 			);
-			path = MonsUITests;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8447D6B320B976B3006D59A8 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8447D6B420B976B3006D59A8 /* YouTubePlayer.swift */,
+				8447D6B520B976B3006D59A8 /* YTPlayer.html */,
+				8447D6B620B976B3006D59A8 /* Info.plist */,
+			);
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		ABC73908B7483C73F5793612 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11EA2AFBEA910DAF45D49F46 /* Pods-Mons.debug.xcconfig */,
+				CC16A4D81D9E1589C4EB88A6 /* Pods-Mons.release.xcconfig */,
+				AA79B1356C9FBBE99A726C72 /* Pods-MonsTests.debug.xcconfig */,
+				5B818DB37761EC3DD8580889 /* Pods-MonsTests.release.xcconfig */,
+				B1D590D7864937BDBC08C15B /* Pods-MonsUITests.debug.xcconfig */,
+				A7049C4975DD47E97605EF91 /* Pods-MonsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9A51899F0951FDB20690DF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8447D6AF20B976B3006D59A8 /* YouTubePlayer */,
+				40C48C1F7F43CD3632690489 /* Pods_Mons.framework */,
+				F27EC65D8C88F9DD455502B2 /* Pods_MonsTests.framework */,
+				D291E65B1D658AFD2F8E5E9A /* Pods_MonsUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDDA62C20B068DE00072989 /* Build configuration list for PBXNativeTarget "Mons" */;
 			buildPhases = (
+				1FC00E9749E2E62EE9910B9C /* [CP] Check Pods Manifest.lock */,
 				4EDDA60020B068DE00072989 /* Sources */,
 				4EDDA60120B068DE00072989 /* Frameworks */,
 				4EDDA60220B068DE00072989 /* Resources */,
+				C8A2DE7DB96E2F5DE2BE485C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDDA62F20B068DE00072989 /* Build configuration list for PBXNativeTarget "MonsTests" */;
 			buildPhases = (
+				E4F34D5BC07C5CAFF3B8130F /* [CP] Check Pods Manifest.lock */,
 				4EDDA61420B068DE00072989 /* Sources */,
 				4EDDA61520B068DE00072989 /* Frameworks */,
 				4EDDA61620B068DE00072989 /* Resources */,
@@ -167,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDDA63220B068DE00072989 /* Build configuration list for PBXNativeTarget "MonsUITests" */;
 			buildPhases = (
+				619DB06C36E6B00147669361 /* [CP] Check Pods Manifest.lock */,
 				4EDDA61F20B068DE00072989 /* Sources */,
 				4EDDA62020B068DE00072989 /* Frameworks */,
 				4EDDA62120B068DE00072989 /* Resources */,
@@ -218,6 +309,12 @@
 			mainGroup = 4EDDA5FB20B068DE00072989;
 			productRefGroup = 4EDDA60520B068DE00072989 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8447D6B120B976B3006D59A8 /* Products */;
+					ProjectRef = 8447D6B020B976B3006D59A8 /* YouTubePlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4EDDA60320B068DE00072989 /* Mons */,
@@ -227,13 +324,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8447D6B920B976B3006D59A8 /* YouTubePlayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = YouTubePlayer.framework;
+			remoteRef = 8447D6B820B976B3006D59A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4EDDA60220B068DE00072989 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4EDDA61220B068DE00072989 /* LaunchScreen.storyboard in Resources */,
-				4EDDA60F20B068DE00072989 /* Assets.xcassets in Resources */,
+				8447D6BC20B976B3006D59A8 /* Info.plist in Resources */,
+				4E4E44A220BD84DB0091E4D8 /* Info.plist in Resources */,
+				8447D6BB20B976B3006D59A8 /* YTPlayer.html in Resources */,
+				8447D6EB20BD3DF8006D59A8 /* Assets.xcassets in Resources */,
 				4EDDA60D20B068DE00072989 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +364,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FC00E9749E2E62EE9910B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mons-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619DB06C36E6B00147669361 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A2DE7DB96E2F5DE2BE485C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mons/Pods-Mons-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACTabScrollView/ACTabScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/InteractiveSideMenu/InteractiveSideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer-Swift/YouTubePlayer_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACTabScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InteractiveSideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mons/Pods-Mons-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F34D5BC07C5CAFF3B8130F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EDDA60020B068DE00072989 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E38B6B320BE753D0079B11C /* BoardTableViewController.swift in Sources */,
+				4E28A2A920B57E190074B525 /* BannerViewController.swift in Sources */,
+				4E38B6AD20BE5E8A0079B11C /* VideoTabScrollViewController.swift in Sources */,
+				8447D6BA20B976B3006D59A8 /* YouTubePlayer.swift in Sources */,
+				4E38B6AB20BE594B0079B11C /* YoutubeViewController.swift in Sources */,
+				8495318F20C7CEEA00FF2ECD /* tableViewDataSource.swift in Sources */,
+				8447D6E920BC38C0006D59A8 /* DataSource.swift in Sources */,
+				4E38B6B120BE69C20079B11C /* BoardTabScrollViewController.swift in Sources */,
+				4E0DA2FA20B168AD006569D7 /* MainViewController.swift in Sources */,
 				4EDDA60A20B068DE00072989 /* ViewController.swift in Sources */,
+				84BD42D120BD804700677367 /* GalleryViewController.swift in Sources */,
+				84BD42D020BD804700677367 /* ImagePreviewViewController.swift in Sources */,
 				4EDDA60820B068DE00072989 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +472,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDDA61D20B068DE00072989 /* MonsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +479,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDDA62820B068DE00072989 /* MonsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +626,18 @@
 		};
 		4EDDA62D20B068DE00072989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11EA2AFBEA910DAF45D49F46 /* Pods-Mons.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35VHWPS54T;
 				INFOPLIST_FILE = Mons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jungwon.sy.Mons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +645,18 @@
 		};
 		4EDDA62E20B068DE00072989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC16A4D81D9E1589C4EB88A6 /* Pods-Mons.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35VHWPS54T;
 				INFOPLIST_FILE = Mons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jungwon.sy.Mons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +664,7 @@
 		};
 		4EDDA63020B068DE00072989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA79B1356C9FBBE99A726C72 /* Pods-MonsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +682,7 @@
 		};
 		4EDDA63120B068DE00072989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B818DB37761EC3DD8580889 /* Pods-MonsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +700,7 @@
 		};
 		4EDDA63320B068DE00072989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D590D7864937BDBC08C15B /* Pods-MonsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +717,7 @@
 		};
 		4EDDA63420B068DE00072989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7049C4975DD47E97605EF91 /* Pods-MonsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

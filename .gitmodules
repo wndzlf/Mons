@@ -1,0 +1,3 @@
+[submodule "TTEventKit"]
+	path = TTEventKit
+	url = https://github.com/tattn/TTEventKit.git

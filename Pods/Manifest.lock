@@ -1,0 +1,40 @@
+PODS:
+  - ACTabScrollView (0.3.0)
+  - InteractiveSideMenu (2.3)
+  - JTAppleCalendar (7.1.5)
+  - YouTubePlayer (0.4.0)
+  - YouTubePlayer-Swift (1.0)
+
+DEPENDENCIES:
+  - ACTabScrollView (from `https://github.com/azurechen/ACTabScrollView.git`)
+  - InteractiveSideMenu
+  - JTAppleCalendar (~> 7.0)
+  - YouTubePlayer
+  - YouTubePlayer-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - InteractiveSideMenu
+    - JTAppleCalendar
+    - YouTubePlayer
+    - YouTubePlayer-Swift
+
+EXTERNAL SOURCES:
+  ACTabScrollView:
+    :git: https://github.com/azurechen/ACTabScrollView.git
+
+CHECKOUT OPTIONS:
+  ACTabScrollView:
+    :commit: e7dbd22bb047c58753ff5a940552333f9b106b60
+    :git: https://github.com/azurechen/ACTabScrollView.git
+
+SPEC CHECKSUMS:
+  ACTabScrollView: 9ed2c86bcb54a41b4bea74d4d2dc3a5ed9592900
+  InteractiveSideMenu: d503a508c6d62a4d5d4372d9fb9e1795637a8e45
+  JTAppleCalendar: 2d4f974f9f3c8b4964d51ca1f6e004883c031fbe
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+  YouTubePlayer-Swift: ae82f4bcb504162a872b852596a9dc1fa3828c34
+
+PODFILE CHECKSUM: a6ff9fbdc22eede0e2f21ed0aa33e2d8c61fc6ad
+
+COCOAPODS: 1.5.2
