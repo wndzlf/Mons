@@ -13,14 +13,12 @@
 		4E38B6AD20BE5E8A0079B11C /* VideoTabScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38B6AC20BE5E8A0079B11C /* VideoTabScrollViewController.swift */; };
 		4E38B6B120BE69C20079B11C /* BoardTabScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38B6B020BE69C20079B11C /* BoardTabScrollViewController.swift */; };
 		4E38B6B320BE753D0079B11C /* BoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38B6B220BE753D0079B11C /* BoardTableViewController.swift */; };
-		4E4E44A220BD84DB0091E4D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E44A120BD84DB0091E4D8 /* Info.plist */; };
 		4EDDA60820B068DE00072989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA60720B068DE00072989 /* AppDelegate.swift */; };
 		4EDDA60A20B068DE00072989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA60920B068DE00072989 /* ViewController.swift */; };
 		4EDDA60D20B068DE00072989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDA60B20B068DE00072989 /* Main.storyboard */; };
 		4EDDA61220B068DE00072989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDA61020B068DE00072989 /* LaunchScreen.storyboard */; };
 		8447D6BA20B976B3006D59A8 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447D6B420B976B3006D59A8 /* YouTubePlayer.swift */; };
 		8447D6BB20B976B3006D59A8 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8447D6B520B976B3006D59A8 /* YTPlayer.html */; };
-		8447D6BC20B976B3006D59A8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8447D6B620B976B3006D59A8 /* Info.plist */; };
 		8447D6E920BC38C0006D59A8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447D6E820BC38C0006D59A8 /* DataSource.swift */; };
 		8447D6EB20BD3DF8006D59A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8447D6EA20BD3DF8006D59A8 /* Assets.xcassets */; };
 		8495318F20C7CEEA00FF2ECD /* tableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495318E20C7CEEA00FF2ECD /* tableViewDataSource.swift */; };
@@ -340,8 +338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDDA61220B068DE00072989 /* LaunchScreen.storyboard in Resources */,
-				8447D6BC20B976B3006D59A8 /* Info.plist in Resources */,
-				4E4E44A220BD84DB0091E4D8 /* Info.plist in Resources */,
 				8447D6BB20B976B3006D59A8 /* YTPlayer.html in Resources */,
 				8447D6EB20BD3DF8006D59A8 /* Assets.xcassets in Resources */,
 				4EDDA60D20B068DE00072989 /* Main.storyboard in Resources */,
